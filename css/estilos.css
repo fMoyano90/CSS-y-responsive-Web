@@ -1,0 +1,86 @@
+
+
+header {
+	width:auto;
+	padding:1%;
+	background-color:#5b7989;
+	border-radius:10px 10px 0 0;
+	overflow: hidden;
+	}
+h1 {
+	color:#FFFFFF;
+	text-shadow: 2px 2px #02010a;
+	}
+footer{
+	background-color:#C6d5c5;
+	border-radius:0 0 10px 10px;
+	overflow: hidden;}
+		
+.imagenCentral {
+	width:auto;
+	padding:1%;
+	background-color:#82c3a6;
+	}
+#centrado {
+	display: table;
+  	margin: 0 auto;
+	}
+.titulo{
+	float:left;
+	}	
+.menu {
+	float:right;
+	}
+.menu li{
+	display:inline;
+	}
+#actual{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.menu li a{
+	color:#FFFFFF;
+	}
+.menu li a:hover{
+	color:#CCC;
+	}
+.imagenSecundaria{
+	padding-top:2%;
+	overflow: hidden;
+	background-color:#d5c75f;
+	}
+.paisajes{
+	width:auto;
+	padding:2%;
+	width:50%;
+	float:left;
+	text-align:center;
+	}
+.paisajes img:hover{
+	transform:rotate(10deg);
+	box-shadow:2px 2px #82c3a6;
+	}
+.retratos{
+	width:auto;
+	padding:1%;
+	float:right;
+	text-align:center;
+	}
+.retratos img:hover{
+	transform:translate(20px,-5px);
+	box-shadow:2px 2px #82c3a6;
+	}
+.columna{
+	float:left;
+	width:24%;
+	padding-left:1%;
+	}
+.galeria{
+	float:left;
+	width:33%;
+	}
+.fila{
+	background-color:#d5c75f;
+	padding:1%;
+	overflow: hidden;
+	}
