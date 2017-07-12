@@ -17,7 +17,6 @@ footer{
 	overflow: hidden;}
 		
 .imagenCentral {
-	width:auto;
 	padding:1%;
 	background-color:#82c3a6;
 	}
@@ -45,7 +44,7 @@ footer{
 	color:#CCC;
 	}
 .imagenSecundaria{
-	padding-top:2%;
+	padding:2%;
 	overflow: hidden;
 	background-color:#d5c75f;
 	}
@@ -84,3 +83,53 @@ footer{
 	padding:1%;
 	overflow: hidden;
 	}
+.blur{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+	}
+.gris{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	}
+.sepia{
+	-webkit-filter:sepia(90%);
+	filter:sepiak(90%);
+	}
+@media (max-width:420px){
+	header{
+		width:100%;
+		margin: 0 auto;
+		}
+	article{
+		width:100%;
+		margin: 0 auto;
+		}
+	footer{
+		width:100%;
+		margin: 0 auto;
+		}
+	.menu{
+		width:100%;
+		margin: 0 auto;
+		}
+	.titulo{
+		text-align:center;
+		width:100%;
+		margin: 0 auto;
+		}
+	#centrado {
+		width:100%}
+	.imagenCentral{
+		width:100%;
+		}
+	.paisajes{
+		width:100%;
+		}
+	.retratos{
+		width:100%;
+		}
+	.columna{
+		text-align:center;
+		width:100%;
+		margin: 0 auto;}
+		}
