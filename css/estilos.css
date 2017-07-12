@@ -1,5 +1,10 @@
+@font-face{
+	font-family:'Dancing Script';
+	src:url('Dancing%20Script.ttf');
+	}
 body{
-	background-color:#02010a;}
+	background-color:#02010a;
+	font-family:Dancing Script;}
 .contenido{
 	max-width:900px;
 	margin:auto;}
